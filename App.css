@@ -1,0 +1,53 @@
+.todo-list-app {
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  width: 20%;
+  padding: 10px;
+  background-color: #913175;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #AAE3E2;
+  border-radius: 5px;
+}
+
+button[type="button"] {
+  padding: 10px;
+  background-color: red;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
